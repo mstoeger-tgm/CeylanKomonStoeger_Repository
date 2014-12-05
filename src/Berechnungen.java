@@ -1,7 +1,8 @@
 /**
- * Ceylan Muhammed, Komon Patrick, Stoeger Michael
  * 
- * 
+ * Klasse für Berechnungen von Summe, Maximum, Minimum
+ * @author Ceylan Muhammed, Komon Patrick, Stoeger Michael
+ * @version 05.12.2014
  */
 public class Berechnungen {
 	private LinkedList<> summe;
