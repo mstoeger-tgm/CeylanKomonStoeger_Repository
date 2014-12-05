@@ -1,8 +1,9 @@
+
 /**
- * Klasse fuer 3d Objekte
+ * Klasse fuer 3D Objekte
  * Pyramide(p), Quader(q), Kegel(k)
  * @author Michael Stoeger
- * @verison 4.12.2014
+ * @verison 4.12.2014 1.1
  */
 public class Object3D {
 	private char type; //p Pyramide, q Quader, k Kegel
@@ -49,9 +50,9 @@ public class Object3D {
 		if(type=='q'){
 			rauminhalt=a*b*h;
 		}else if(type=='p'){
-			rauminhalt=(1/3)*a*b*h;
+			rauminhalt=(1.0/3.0)*a*b*h;
 		}else{
-			rauminhalt=(1/3)*Math.PI*a*a*h;
+			rauminhalt=(1.0/3.0)*Math.PI*a*a*h;
 		}
 		return rauminhalt;
 	}

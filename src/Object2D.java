@@ -8,7 +8,7 @@
  * eines Dreiecks, so bekommt man meist 0 [oder evtl. NaN] als Ergebnis.)
  * 
  * @author Patrick Komon
- * @version 04-12-2014
+ * @version 04-12-2014 1.1
  */
 public class Object2D {
 
@@ -74,8 +74,7 @@ public class Object2D {
 	 * @return double Flächeninhalt eines Dreiecks mit den Seiten a, b und c
 	 */
 	public double calcTri(){
-		double s = (a+b+c)/2;
-		System.out.println(s*(s-a)*(s-b)*(s-c));
+		double s = (a+b+c)/2.0;
 		return Math.sqrt(s*(s-a)*(s-b)*(s-c));
 	}
 	
