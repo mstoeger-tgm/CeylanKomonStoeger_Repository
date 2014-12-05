@@ -3,9 +3,10 @@
  * Klasse für Berechnungen von Summe, Maximum, Minimum
  * @author Ceylan Muhammed, Komon Patrick, Stoeger Michael
  * @version 05.12.2014
+ * 
  */
 public class Berechnungen {
-	private LinkedList<> summe;
+	private LinkedList<> summe =  new LinkedList<>();
 	
 	/**
 	 * Methode für Berechnungen einer Summe von beliebigen Werten
@@ -34,6 +35,15 @@ public class Berechnungen {
 	 */
 	public double minimum(){
 		Collections.min(summe);
+	}
+	/**
+	 * 
+	 * Beliebige Werte mittels add hinzugefügt
+	 * 
+	 */
+	public void add(double x){
+		summe.add(x);
+		
 	}
 	
 
